@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".landlords.fragment.YourPropertyFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/HouseImageView"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:src="@drawable/rumah1"
+                android:layout_marginRight="30dp"/>
+
+            <TextView
+                android:id="@+id/bt"
+                android:layout_width="179dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="Building Type:"
+                android:textColorHint="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/buildingTypeTV"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableLeft="@drawable/ic_baseline_roofing_24"
+                android:hint="Building Type"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="18dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/room"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:hint="Number of Room:"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/numOfRoomTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Number Of Room"
+                android:layout_marginTop="0dp"
+                android:textSize="18dp"
+                android:drawableLeft="@drawable/ic_baseline_door_back_24"
+                android:textColorHint="@color/black"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/toilet"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:hint="Number of Toilets:"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+            <TextView
+                android:id="@+id/numOfToiletsTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Number Of Toilets"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="18dp"
+                android:drawableLeft="@drawable/ic_baseline_bathtub_24"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/address1"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:hint="Address:"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/AddressTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Address"
+                android:drawableLeft="@drawable/ic_baseline_roofing_24"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="15dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/city1"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:hint="City:"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/cityTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="City"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="18dp"
+                android:drawableLeft="@drawable/ic_baseline_edit_24"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/state1"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:hint="State:"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/stateTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="State"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="18dp"
+                android:drawableLeft="@drawable/ic_baseline_edit_24"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/posscode1"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:hint="Postcode:"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/posscodeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Postcode"
+                android:layout_marginTop="0dp"
+                android:textSize="18dp"
+                android:drawableLeft="@drawable/ic_baseline_edit_24"
+                android:textColorHint="@color/black"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/date1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Date Available:"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/davTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Date Available"
+                android:layout_marginTop="0dp"
+                android:textColorHint="@color/black"
+                android:textSize="18dp"
+                android:drawableLeft="@drawable/ic_baseline_calendar_month_24"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/status1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Status:"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/statusTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Status"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="18dp"
+                android:drawableLeft="@drawable/ic_baseline_edit_24"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/price1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Price(RM):"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/priceTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Price(RM)"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="0dp"
+                android:textSize="18dp"
+                android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/notes"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Notes:"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/notesTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Notes"
+                android:textSize="18dp"
+                android:drawableLeft="@drawable/ic_baseline_notes_24"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppins_medium"/>
+
+          <!--  <Button
+                android:id="@+id/EditBtn"
+                android:layout_width="310dp"
+                android:layout_height="50dp"
+                android:text="Edit"
+                android:onClick="edit"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                tools:ignore="OnClick" /> !-->
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/EditBtnHouse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:text="EDIT"
+                android:onClick="editbtn"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/white"
+                android:background="@drawable/round_button"
+                android:textStyle="bold"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

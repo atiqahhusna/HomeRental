@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">HomeRental</string>
+
+    <string name="select">Select Item</string>
+
+    <string-array name="BuildingType">
+        <item>BuildingType</item>
+        <item>Landed</item>
+        <item>Non landed</item>
+    </string-array>
+
+    <string-array name="role">
+        <item>Role</item>
+        <item>Landlord</item>
+        <item>Tenant</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="NumOfRoom">
+        <item>Number Of Room</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="NumOfToilets">
+        <item>Number Of Toilet</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="City">
+        <item>City</item>
+        <item>Ayer Keroh</item>
+        <item>Bukit Beruang</item>
+        <item>Durian Tunggal</item>
+    </string-array>
+
+    <string-array name="State">
+        <item>State</item>
+        <item>Melaka</item>
+    </string-array>
+
+    <string-array name="Status">
+        <item>Status</item>
+        <item>Available</item>
+        <item>Not Available</item>
+    </string-array>
+
+    <string-array name="price">
+        <item>RM300.00</item>
+        <item>RM450.00</item>
+        <item>RM100.00</item>
+    </string-array>
+
+    <string-array name="address">
+        <item>Melaka</item>
+        <item>Bukit Beruang</item>
+        <item>Ayer Keroh</item>
+    </string-array>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
